@@ -23,8 +23,10 @@ int main() {
 }
 ```
 
-# Program 2
+## Output
+![Output](./output1.png)
 
+# Program 2
 ```
 
 #include <stdio.h>
@@ -52,3 +54,6 @@ int main() {
   return 0;
 }
 ```
+
+## Output
+![Output](./output2.png)
