@@ -1,6 +1,6 @@
 # Program
 
-```
+```C
 #include <stdio.h>
 
 void fcfs(int n, int bt[]) {

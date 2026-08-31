@@ -1,6 +1,6 @@
 # Program 1
 
-```
+```C
 #include <stdio.h>
 #include <unistd.h>
 
