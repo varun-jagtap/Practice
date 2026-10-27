@@ -17,9 +17,7 @@ void loop()
   delay(1000);
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/d8fwMRVq4uE-practical-3?sharecode=Uz5cmnvoCbTMoQuvyPw4g0kxl29TgFk8ETvPQp-xkdE
-```
+[https://www.tinkercad.com/things/d8fwMRVq4uE-practical-3?sharecode=Uz5cmnvoCbTMoQuvyPw4g0kxl29TgFk8ETvPQp-xkdE](https://www.tinkercad.com/things/d8fwMRVq4uE-practical-3?sharecode=Uz5cmnvoCbTMoQuvyPw4g0kxl29TgFk8ETvPQp-xkdE)
 ## 4. Controlling LED using push button with Arduino UNO (Digital Read).
 ![practical2.png](assets/practical2.png)
 ```C
@@ -44,9 +42,7 @@ void loop()
   }
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/l0dW1BR9xxa-practical-4?sharecode=kQw64QrzhF7qIU5w8--nDnL7KOjoT7UqY53fL_aoO3o
-```
+[https://www.tinkercad.com/things/l0dW1BR9xxa-practical-4?sharecode=kQw64QrzhF7qIU5w8--nDnL7KOjoT7UqY53fL_aoO3o](https://www.tinkercad.com/things/l0dW1BR9xxa-practical-4?sharecode=kQw64QrzhF7qIU5w8--nDnL7KOjoT7UqY53fL_aoO3o)
 ## 5. Interfacing potentiometer with Arduino UNO (Analog Read).
 ![practical3.png](assets/practical3.png)
 ```C
@@ -70,9 +66,7 @@ void loop()
   Serial.println(outputvalue);
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/ip51TVTtOTu-practical-5?sharecode=O38o_JWnyAOAMPWsTtStlBwhilJmbhhUIxHsNoCF1sQ
-```
+[https://www.tinkercad.com/things/ip51TVTtOTu-practical-5?sharecode=O38o_JWnyAOAMPWsTtStlBwhilJmbhhUIxHsNoCF1sQ](https://www.tinkercad.com/things/ip51TVTtOTu-practical-5?sharecode=O38o_JWnyAOAMPWsTtStlBwhilJmbhhUIxHsNoCF1sQ)
 ## 6. Smart lighting system using LDR and Arduino UNO.
 ![practical4.png](assets/practical4.png)
 ```C
@@ -102,9 +96,7 @@ void loop()
   }
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/99FkPgxbzDI-practical-6?sharecode=pn_Wdljw19_08MxfZpbQ3K_B2DCx3_LXmOmQFloZoC0
-```
+[https://www.tinkercad.com/things/99FkPgxbzDI-practical-6?sharecode=pn_Wdljw19_08MxfZpbQ3K_B2DCx3_LXmOmQFloZoC0](https://www.tinkercad.com/things/99FkPgxbzDI-practical-6?sharecode=pn_Wdljw19_08MxfZpbQ3K_B2DCx3_LXmOmQFloZoC0)
 ## 7. Motion Detection using PIR Sensor and Arduino UNO.
 ![practical5.png](assets/practical5.png)
 ```C
@@ -133,9 +125,7 @@ void loop()
   }
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/jfGZ9fFH4tr-practical-7?sharecode=pRMJnve4p7bbype4vElVb0xa0jx701Qt1PT2v_p605M
-```
+[https://www.tinkercad.com/things/jfGZ9fFH4tr-practical-7?sharecode=pRMJnve4p7bbype4vElVb0xa0jx701Qt1PT2v_p605M](https://www.tinkercad.com/things/jfGZ9fFH4tr-practical-7?sharecode=pRMJnve4p7bbype4vElVb0xa0jx701Qt1PT2v_p605M)
 ## 8. Temperature measurement using thermistor LM35/DHT11 and Arduino UNO.
 ![practical6.png](assets/practical6.png)
 ```C
@@ -172,9 +162,7 @@ void loop(){
   Serial.println(sensorValue);
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/dwuGZ2WsN3T-practical-8?sharecode=Zzx8dDeoGkFZGNiw2uPx067k-W3btUYOFwxjJxmA8-o
-```
+[https://www.tinkercad.com/things/dwuGZ2WsN3T-practical-8?sharecode=Zzx8dDeoGkFZGNiw2uPx067k-W3btUYOFwxjJxmA8-o](https://www.tinkercad.com/things/dwuGZ2WsN3T-practical-8?sharecode=Zzx8dDeoGkFZGNiw2uPx067k-W3btUYOFwxjJxmA8-o)
 ## 9. Distance measurement using SR-04 and Arduino UNO.
 ![practical7.png](assets/practical7.png)
 ```C
@@ -227,9 +215,7 @@ void loop() {
   delay(100);
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/aA0JSdxfBRV-practical-9?sharecode=iSE_3ABdl8JkxY0xFQLbMnD4J2YCNG5B5JYE1BOxaC8
-```
+[https://www.tinkercad.com/things/aA0JSdxfBRV-practical-9?sharecode=iSE_3ABdl8JkxY0xFQLbMnD4J2YCNG5B5JYE1BOxaC8](https://www.tinkercad.com/things/aA0JSdxfBRV-practical-9?sharecode=iSE_3ABdl8JkxY0xFQLbMnD4J2YCNG5B5JYE1BOxaC8)
 ## 10. Gas detection using MQ135/MQ2 and Arduino UNO.
 ![practical8.png](assets/practical8.png)
 ```C
@@ -263,9 +249,7 @@ void loop() {
   delay(500);
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/cCZRkhOGxv0-practical-10?sharecode=wfOldfAiFPp3KaqS1KkDJN4QTdf661q52qahyKjbvts
-```
+[https://www.tinkercad.com/things/cCZRkhOGxv0-practical-10?sharecode=wfOldfAiFPp3KaqS1KkDJN4QTdf661q52qahyKjbvts](https://www.tinkercad.com/things/cCZRkhOGxv0-practical-10?sharecode=wfOldfAiFPp3KaqS1KkDJN4QTdf661q52qahyKjbvts)
 ## 11. Servo motor (SG-90) control using Arduino UNO.
 ![practical9.png](assets/practical9.png)
 ```C
@@ -292,9 +276,7 @@ void loop() {
   delay(2000);
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/ie8WbfLxvLZ-practical-11?sharecode=H1WYYTxrc33Hn4CxsDysoCmws-dRcvItQTB03IHknaE
-```
+[https://www.tinkercad.com/things/ie8WbfLxvLZ-practical-11?sharecode=H1WYYTxrc33Hn4CxsDysoCmws-dRcvItQTB03IHknaE](https://www.tinkercad.com/things/ie8WbfLxvLZ-practical-11?sharecode=H1WYYTxrc33Hn4CxsDysoCmws-dRcvItQTB03IHknaE)
 ## 12. Home Appliances control using Relay and Arduino UNO (Interfacing Relay to Arduino).
 ![practical10.png](assets/practical10.png)
 ```C
@@ -311,9 +293,7 @@ void loop() {
   delay(1000);
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/lWQgrOO1Rqp-practical-12?sharecode=aBwhpJohuvH8LB4W3jmMRYC-vuHsSzJfsQnVXh44NX0
-```
+[https://www.tinkercad.com/things/lWQgrOO1Rqp-practical-12?sharecode=aBwhpJohuvH8LB4W3jmMRYC-vuHsSzJfsQnVXh44NX0](https://www.tinkercad.com/things/lWQgrOO1Rqp-practical-12?sharecode=aBwhpJohuvH8LB4W3jmMRYC-vuHsSzJfsQnVXh44NX0)
 ## 13. DC motor control using Arduino UNO.
 ![practical11.png](assets/practical11.png)
 ```C
@@ -355,6 +335,4 @@ void loop() {
   delay(1000);
 }
 ```
-```bookmark
-https://www.tinkercad.com/things/jlRNs3girFS-practical-13?sharecode=htNOL0HeXjzTStWSs8hrGV4Yl78vCsnZGF8dTbNLL60
-```
+[https://www.tinkercad.com/things/jlRNs3girFS-practical-13?sharecode=htNOL0HeXjzTStWSs8hrGV4Yl78vCsnZGF8dTbNLL60](https://www.tinkercad.com/things/jlRNs3girFS-practical-13?sharecode=htNOL0HeXjzTStWSs8hrGV4Yl78vCsnZGF8dTbNLL60)
