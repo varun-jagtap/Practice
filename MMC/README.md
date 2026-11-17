@@ -154,19 +154,19 @@ void loop() {
     digitalWrite(LED_1, HIGH);
     digitalWrite(LED_2, HIGH);
     digitalWrite(LED_3, HIGH);
-    Serial.println("Temperature is very low");
+    Serial.println("Temperature is very HIGH");
   }
   else if (temp > 60) {
     digitalWrite(LED_1, HIGH);
     digitalWrite(LED_2, HIGH);
     digitalWrite(LED_3, LOW);
-    Serial.println("Temperature is medium");
+    Serial.println("Temperature is MEDIUM");
   }
   else {
     digitalWrite(LED_1, HIGH);
     digitalWrite(LED_2, LOW);
     digitalWrite(LED_3, LOW);
-    Serial.println("Temperature is very high");
+    Serial.println("Temperature is very LOW");
   }
 
   Serial.print("Temprature: ");
