@@ -255,25 +255,20 @@ void loop() {
 ```C
 #include <Servo.h>
 
-Servo myServo; 
+Servo myServo;
+
+const int potPin = A0;    
+const int servoPin = 6;
 
 void setup() {
-  Serial.begin(9600);
-  myServo.attach(6); 
+  myServo.attach(servoPin);
 }
 
 void loop() {
-  myServo.write(0); 
-  Serial.println("Position: 0");
-  delay(2000);
-
-  myServo.write(90);
-  Serial.println("Position: 90");
-  delay(2000);
-
-  myServo.write(180); 
-  Serial.println("Position: 180");
-  delay(2000);
+  int potValue = analogRead(potPin);              
+  int angle = map(potValue, 0, 1023, 0, 180);     
+  myServo.write(angle);                           
+  delay(15);                                      
 }
 ```
 [https://www.tinkercad.com/things/ie8WbfLxvLZ-practical-11?sharecode=H1WYYTxrc33Hn4CxsDysoCmws-dRcvItQTB03IHknaE](https://www.tinkercad.com/things/ie8WbfLxvLZ-practical-11?sharecode=H1WYYTxrc33Hn4CxsDysoCmws-dRcvItQTB03IHknaE)
