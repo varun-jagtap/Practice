@@ -131,35 +131,48 @@ void loop()
 ```C
 int sensorValue = 0;
 
-void setup(){
+const int LED_1  = 1;
+const int LED_2  = 2; 
+const int LED_3 = 3; 
+void setup() {
   Serial.begin(9600);
-  pinMode(A1,INPUT);
-  pinMode(1,OUTPUT);
-  pinMode(2,OUTPUT);
+  pinMode(A0, INPUT);
+  pinMode(LED_1, OUTPUT);
+  pinMode(LED_2, OUTPUT);
+  pinMode(LED_3, OUTPUT);
 }
 
-void loop(){
-  sensorValue = analogRead(A1);
-  int temp = (sensorValue * 5.0 * 100)/1024;
-              
-  Serial.print("Temprature: ");
+void loop() {
+  sensorValue = analogRead(A0);
+  int temp = (sensorValue * 5.0 * 100) / 1024;
+
+  Serial.print("Temperature: ");
   Serial.print(temp);
   Serial.println(" C");
-  delay(100);
-  
-  if(sensorValue <= 60){
-    digitalWrite(1,HIGH);
-    digitalWrite(2,LOW);
-    Serial.print("Temprature is very low");
+
+  if (temp > 100) {
+    digitalWrite(LED_1, HIGH);
+    digitalWrite(LED_2, HIGH);
+    digitalWrite(LED_3, HIGH);
+    Serial.println("Temperature is very low");
   }
-  else{
-    digitalWrite(1,LOW);
-    digitalWrite(2,HIGH);
-    Serial.println("Temprature is very high");
+  else if (temp > 60) {
+    digitalWrite(LED_1, HIGH);
+    digitalWrite(LED_2, HIGH);
+    digitalWrite(LED_3, LOW);
+    Serial.println("Temperature is medium");
   }
-  
-  Serial.print("Raw ADC value: ");
+  else {
+    digitalWrite(LED_1, HIGH);
+    digitalWrite(LED_2, LOW);
+    digitalWrite(LED_3, LOW);
+    Serial.println("Temperature is very high");
+  }
+
+  Serial.print("Temprature: ");
+  Serial.println(temp);
   Serial.println(sensorValue);
+  delay(1000);
 }
 ```
 [https://www.tinkercad.com/things/dwuGZ2WsN3T-practical-8?sharecode=Zzx8dDeoGkFZGNiw2uPx067k-W3btUYOFwxjJxmA8-o](https://www.tinkercad.com/things/dwuGZ2WsN3T-practical-8?sharecode=Zzx8dDeoGkFZGNiw2uPx067k-W3btUYOFwxjJxmA8-o)
