@@ -27,8 +27,7 @@ int main() {
 ![Output](./output1.png)
 
 # Program 2
-```
-
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/wait.h>
